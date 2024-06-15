@@ -1,0 +1,175 @@
+
+
+
+
+body{
+ font-family: sans-serif;
+ /*background: #ebf9fb;*/
+ position: fixed;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  background-image:  url("");
+  background-position-y: top;
+  background-color: #007bff;
+  -webkit-background-size: cover;
+          background-size: cover;
+  z-index: -1;
+
+}
+
+h1{
+ text-align: center;
+ /*ketebalan font*/
+ font-weight: 100;
+}
+
+.tulisan_atas{
+ text-align: center;
+ /*membuat semua huruf menjadi kapital*/
+ text-transform: uppercase;
+}
+
+.panel_login{
+ width: 350px;
+ background-color: #fff;
+ /*meletakkan form ke tengah*/
+ margin: 80px auto;
+ padding: 30px 20px;
+ 
+}
+
+label{
+ font-size: 11pt;
+}
+
+header{
+
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 10px;
+
+}
+small {
+  font-size: 80%;
+}
+
+.form_login{
+ /*membuat lebar form penuh*/
+ display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+
+}
+
+.tombol_login{
+ background: #2aa7e2;
+ color: white;
+ font-size: 11pt;
+ width: 100%;
+ border: none;
+ border-radius: 3px;
+ padding: 10px 20px;
+}
+
+.link{
+ color: #232323;
+ text-decoration: none;
+ font-size: 10pt;
+}
+
+.alert{
+ background: #e44e4e;
+ color: white;
+ padding: 10px;
+ text-align: center;
+ border:1px solid #b32929;
+}
+.mb-1,
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.ml-1,
+.mx-1 {
+  margin-left: 0.25rem !important;
+}
+
+.m-2 {
+  margin: 0.5rem !important;
+}
+.card-footer {
+  border-top: 0;
+}
+.text-center {
+  text-align: center !important;
+}
+.container {
+    min-width: 992px !important;
+  }
+.justify-content-center {
+  justify-content: center !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+.col-lg-5{
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+#layoutAuthentication_footer {
+  min-width: 0;
+}
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important;
+  
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.mt-auto,
+.my-auto {
+  margin-top: auto !important;
+}
+.container-fluid{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.justify-content-lg-center {
+    justify-content: center !important;
+  }
+  .align-items-center {
+  align-items: center !important;
+}
+
+
+
+
